@@ -1,20 +1,20 @@
 {
-  "name": "React Avançado - Boilerplate",
-  "short_name": "React Avançado",
+  "name": "Wongames",
+  "short_name": "Wongames",
   "icons": [
     {
-      "src": "/img/icon-192.png",
+      "src": "/img/icon/icon-192.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "192x145.85"
     },
     {
-      "src": "/img/icon-512.png",
+      "src": "/img/icon/icon-512.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x388.92"
     }
   ],
   "background_color": "#06092B",
-  "description": "Boilerlate utilizando Typescript, React, NextJS e Styled Components!",
+  "description": "Wongames",
   "display": "fullscreen",
   "start_url": "/",
   "theme_color": "#06092B"
