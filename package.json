@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint src --max-warnings=5",
+    "lint": "eslint src --max-warnings=2",
     "test": "jest",
     "test:watch": "yarn test --watchAll",
     "test:ci": "jest --runInBand",
