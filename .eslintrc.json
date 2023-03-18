@@ -16,7 +16,8 @@
     "plugin:@typescript-eslint/recommended",
     "plugin:jest/recommended",
     "plugin:@next/next/recommended",
-    "prettier"
+    "prettier",
+    "plugin:storybook/recommended"
   ],
   "overrides": [],
   "parser": "@typescript-eslint/parser",
@@ -36,5 +37,6 @@
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "@typescript-eslint/no-non-null-assertion": "off",
     "no-unused-vars": "warn"
-  }
+  },
+  "ignorePatterns": ["**/*.css", "src/stories/Button.stories.ts"]
 }
