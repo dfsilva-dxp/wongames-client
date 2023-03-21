@@ -25,6 +25,9 @@
       "yarn test --findRelatedTests --passWithNoTests"
     ]
   },
+  "eslintIgnore": [
+    "**/*.css"
+  ],
   "dependencies": {
     "@babel/core": "^7.21.3",
     "@babel/eslint-parser": "^7.21.3",

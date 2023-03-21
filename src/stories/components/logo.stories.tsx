@@ -55,6 +55,11 @@ type Story = StoryObj<typeof Logo>;
 export const Normal: Story = {
   args: {
     hideOnMobile: false
+  },
+  parameters: {
+    backgrounds: {
+      default: "won-dark"
+    }
   }
 };
 
@@ -62,11 +67,6 @@ export const Black: Story = {
   args: {
     hideOnMobile: false,
     color: "black"
-  },
-  parameters: {
-    backgrounds: {
-      default: "won-light"
-    }
   }
 };
 
@@ -74,6 +74,11 @@ export const Large: Story = {
   args: {
     hideOnMobile: false,
     size: "large"
+  },
+  parameters: {
+    backgrounds: {
+      default: "won-dark"
+    }
   }
 };
 
@@ -84,6 +89,9 @@ export const Mobile: Story = {
   parameters: {
     viewport: {
       defaultViewport: "mobile1"
+    },
+    backgrounds: {
+      default: "won-dark"
     }
   }
 };
