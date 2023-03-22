@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Empty /> should render correctly 1`] = `
+<body>
+  <div>
+    <section
+      class="sc-gueYoa gytIpw"
+    >
+      <img
+        alt="A gamer in a couch playing video game"
+        class="sc-dmqHEX fYHtzS"
+        role="image"
+        src="http://localhost:1337/uploads/empty_f6b54587fa.svg"
+        title="A gamer in a couch playing video game"
+      />
+      <h2
+        class="sc-hLseeU byCKnb"
+      >
+        Your wishlist is empty
+      </h2>
+      <p
+        class="sc-eDDNvR ciClss"
+      >
+        A simple description
+      </p>
+      <a
+        href="/"
+      >
+        <button
+          class="sc-beqWaB dyXRan"
+        >
+          <span>
+            Go back to store
+          </span>
+        </button>
+      </a>
+    </section>
+  </div>
+</body>
+`;

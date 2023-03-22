@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GameItem /> should render the item 1`] = `
+<div
+  class="sc-beqWaB eLBXcL"
+>
+  <div
+    class="sc-gueYoa htUdOl"
+  >
+    <div
+      class="sc-dmqHEX dUdIzV"
+    >
+      <img
+        alt="Red Dead Redemption 2"
+        data-nimg="1"
+        decoding="async"
+        height="100"
+        loading="lazy"
+        src="/_next/image?url=http%3A%2F%2Flocalhost%3A1337%2Fuploads%2FImage_9620999b16.png&w=256&q=75"
+        srcset="/_next/image?url=http%3A%2F%2Flocalhost%3A1337%2Fuploads%2FImage_9620999b16.png&w=128&q=75 1x, /_next/image?url=http%3A%2F%2Flocalhost%3A1337%2Fuploads%2FImage_9620999b16.png&w=256&q=75 2x"
+        style="color: transparent;"
+        title="Red Dead Redemption 2"
+        width="100"
+      />
+    </div>
+    <div
+      class="sc-hLseeU qentG"
+    >
+      <h3
+        class="sc-eDDNvR kObAXk"
+      >
+        Red Dead Redemption 2
+      </h3>
+      <div
+        class="sc-gLDzan kwiAXX"
+      >
+        215
+      </div>
+    </div>
+  </div>
+</div>
+`;
