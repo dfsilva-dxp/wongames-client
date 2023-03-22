@@ -47,6 +47,11 @@ const GlobalStyles = createGlobalStyle`
       font-size? ${theme.font.sizes.medium};
       background-color: ${theme.colors.mainBg};
     }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
   `}
 `;
 
