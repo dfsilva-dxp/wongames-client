@@ -13,7 +13,9 @@
     "coverage": "jest --coverage",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "generate": "yarn plop --plopfile generators/plopfile.js"
+    "generate:component": "yarn plop --plopfile generators/plopfile-component.js",
+    "generate:page": "yarn plop --plopfile generators/plopfile-page.js",
+    "generate:template": "yarn plop --plopfile generators/plopfile-template.js"
   },
   "husky": {
     "hooks": {
