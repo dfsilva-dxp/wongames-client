@@ -1,17 +1,147 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<CartList /> should render the cart list 1`] = `
+.c1 {
+  border: 1px solid #fff;
+  padding: 2.4rem;
+  border-bottom: 0.1rem solid #EAEAEA;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c3 {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  margin-right: 1.2rem;
+  width: 9.6rem;
+  height: 5.6rem;
+  overflow: hidden;
+}
+
+.c3 img {
+  width: 100%;
+  -webkit-block-size: cover;
+  -ms-flex-block-size: cover;
+  block-size: cover;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.c5 {
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+  font-weight: 600;
+  color: #030517;
+  margin-bottom: 0.8rem;
+}
+
+.c6 {
+  color: #FAFAFA;
+  padding: 0.2rem 0.8rem;
+  background-color: #3CD3C1;
+  border-radius: 0.4rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.c0 {
+  background: #FAFAFA;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-self: start;
+  -ms-flex-item-align: start;
+  align-self: start;
+}
+
+.c7 {
+  background: #eee;
+  color: #030517;
+  font-weight: 600;
+  font-size: 1.4rem;
+  padding: 2rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c8 {
+  color: #F231A5;
+}
+
+@media (min-width:768px) {
+  .c1 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media (min-width:768px) {
+  .c3 {
+    margin-right: 1.6rem;
+    width: 15rem;
+    height: 7rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c5 {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c7 {
+    font-size: 1.6rem;
+    padding: 2.4rem;
+  }
+}
+
 <main
-  class="sc-fbJfA jsFMjr"
+  class="c0"
 >
   <div
-    class="sc-jTrPJq hhrMYW"
+    class="c1"
   >
     <div
-      class="sc-gLDzan HSuuX"
+      class="c2"
     >
       <div
-        class="sc-iAEyYk jTLFYW"
+        class="c3"
       >
         <img
           alt="Red Dead Redemption 2"
@@ -27,15 +157,15 @@ exports[`<CartList /> should render the cart list 1`] = `
         />
       </div>
       <div
-        class="sc-fsQiph grMEMd"
+        class="c4"
       >
         <h3
-          class="sc-qRumB jWvEPu"
+          class="c5"
         >
           Red Dead Redemption 2
         </h3>
         <div
-          class="sc-kFuwaP bYjEGb"
+          class="c6"
         >
           215
         </div>
@@ -43,13 +173,13 @@ exports[`<CartList /> should render the cart list 1`] = `
     </div>
   </div>
   <div
-    class="sc-jTrPJq hhrMYW"
+    class="c1"
   >
     <div
-      class="sc-gLDzan HSuuX"
+      class="c2"
     >
       <div
-        class="sc-iAEyYk jTLFYW"
+        class="c3"
       >
         <img
           alt="Borderlands 3"
@@ -65,15 +195,15 @@ exports[`<CartList /> should render the cart list 1`] = `
         />
       </div>
       <div
-        class="sc-fsQiph grMEMd"
+        class="c4"
       >
         <h3
-          class="sc-qRumB jWvEPu"
+          class="c5"
         >
           Borderlands 3
         </h3>
         <div
-          class="sc-kFuwaP bYjEGb"
+          class="c6"
         >
           215
         </div>
@@ -81,13 +211,13 @@ exports[`<CartList /> should render the cart list 1`] = `
     </div>
   </div>
   <div
-    class="sc-brKeYL dJdCyI"
+    class="c7"
   >
     <span>
       Total:
     </span>
     <span
-      class="sc-ktEKTO dDUwxx"
+      class="c8"
     >
       R$ 330,00
     </span>

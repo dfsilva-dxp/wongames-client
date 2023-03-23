@@ -1,14 +1,99 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<GameItem /> should render the item 1`] = `
+.c0 {
+  border: 1px solid #fff;
+  padding: 2.4rem;
+  border-bottom: 0.1rem solid #EAEAEA;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  margin-right: 1.2rem;
+  width: 9.6rem;
+  height: 5.6rem;
+  overflow: hidden;
+}
+
+.c2 img {
+  width: 100%;
+  -webkit-block-size: cover;
+  -ms-flex-block-size: cover;
+  block-size: cover;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.c4 {
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+  font-weight: 600;
+  color: #030517;
+  margin-bottom: 0.8rem;
+}
+
+.c5 {
+  color: #FAFAFA;
+  padding: 0.2rem 0.8rem;
+  background-color: #3CD3C1;
+  border-radius: 0.4rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media (min-width:768px) {
+  .c2 {
+    margin-right: 1.6rem;
+    width: 15rem;
+    height: 7rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c4 {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+}
+
 <div
-  class="sc-beqWaB eLBXcL"
+  class="c0"
 >
   <div
-    class="sc-gueYoa htUdOl"
+    class="c1"
   >
     <div
-      class="sc-dmqHEX dUdIzV"
+      class="c2"
     >
       <img
         alt="Red Dead Redemption 2"
@@ -24,15 +109,15 @@ exports[`<GameItem /> should render the item 1`] = `
       />
     </div>
     <div
-      class="sc-hLseeU qentG"
+      class="c3"
     >
       <h3
-        class="sc-eDDNvR kObAXk"
+        class="c4"
       >
         Red Dead Redemption 2
       </h3>
       <div
-        class="sc-gLDzan kwiAXX"
+        class="c5"
       >
         215
       </div>

@@ -1,4 +1,4 @@
-import { act, screen, waitFor } from "@testing-library/react";
+import { act, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { renderWithTheme } from "utils/tests/helpers";
 
@@ -29,9 +29,7 @@ describe("<Dropdown />", () => {
       userEvent.click(screen.getByLabelText(/dropdown/));
     });
 
-    waitFor(() => {
-      expect(content).toHaveStyle({ opacity: 1 });
-      expect(content.getAttribute("aria-hidden")).toBe("false");
-    });
+    expect(content).toHaveStyle({ opacity: 1 });
+    expect(content.getAttribute("aria-hidden")).toBe("false");
   });
 });

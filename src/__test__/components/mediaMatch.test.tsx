@@ -1,4 +1,4 @@
-import { render, screen, waitFor } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 
 import MediaMatch from "components/MediaMatch";
 
@@ -22,20 +22,16 @@ describe("<MediaMatch />", () => {
   });
 
   it("should be hidden if no media query is passed", () => {
-    waitFor(() => {
-      expect(desktopHeading.parentElement).toHaveStyleRule("display", "none");
-      expect(mobileHeading.parentElement).toHaveStyleRule("display", "none");
-    });
+    expect(desktopHeading.parentElement).toHaveStyleRule("display", "none");
+    expect(mobileHeading.parentElement).toHaveStyleRule("display", "none");
   });
 
   it("should be show or hide based on the media passed", () => {
-    waitFor(() => {
-      expect(desktopHeading.parentElement).toHaveStyleRule("display", "block", {
-        media: "(min-width: 768px)"
-      });
-      expect(mobileHeading.parentElement).toHaveStyleRule("display", "block", {
-        media: "(max-width: 768px)"
-      });
+    expect(desktopHeading.parentElement).toHaveStyleRule("display", "block", {
+      media: "(min-width: 768px)"
+    });
+    expect(mobileHeading.parentElement).toHaveStyleRule("display", "block", {
+      media: "(max-width: 768px)"
     });
   });
 });

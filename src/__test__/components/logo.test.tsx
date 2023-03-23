@@ -1,4 +1,4 @@
-import { screen, waitFor } from "@testing-library/react";
+import { screen } from "@testing-library/react";
 import { renderWithTheme } from "utils/tests/helpers";
 
 import Logo from "components/Logo";
@@ -43,14 +43,12 @@ describe("<Logo />", () => {
   it("should render a bigger logo without text if hideOnMobile", () => {
     renderWithTheme(<Logo hideOnMobile />);
 
-    waitFor(() => {
-      expect(screen.getByLabelText(/Won Games/i).parentElement).toHaveStyleRule(
-        "width",
-        "5.8rem",
-        {
-          media: "(max-width: 768px)"
-        }
-      );
-    });
+    expect(screen.getByLabelText(/Won Games/i).parentElement).toHaveStyleRule(
+      "width",
+      "5.8rem",
+      {
+        media: "(max-width: 768px)"
+      }
+    );
   });
 });

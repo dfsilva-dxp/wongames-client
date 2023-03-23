@@ -1,4 +1,4 @@
-import { screen, waitFor } from "@testing-library/react";
+import { screen } from "@testing-library/react";
 import { AddShoppingCart } from "@styled-icons/material-outlined/AddShoppingCart";
 
 import { renderWithTheme } from "utils/tests/helpers";
@@ -60,29 +60,25 @@ describe("<Button />", () => {
       color: "#F231A5"
     });
 
-    waitFor(() => {
-      expect(screen.getByRole("button", { name: /buy now/i })).toHaveStyleRule(
-        "background",
-        "none",
-        {
-          modifier: ":hover"
-        }
-      );
-    });
+    expect(screen.getByRole("button", { name: /buy now/i })).toHaveStyleRule(
+      "background",
+      "none",
+      {
+        modifier: ":hover"
+      }
+    );
   });
 
   it("should render a disabled Button", () => {
     renderWithTheme(<Button disabled>Buy now</Button>);
 
-    waitFor(() => {
-      expect(screen.getByRole("button", { name: /buy now/i })).toHaveStyleRule(
-        "cursor",
-        "not-allowed",
-        {
-          modifier: ":disabled"
-        }
-      );
-    });
+    expect(screen.getByRole("button", { name: /buy now/i })).toHaveStyleRule(
+      "cursor",
+      "not-allowed",
+      {
+        modifier: ":disabled"
+      }
+    );
   });
 
   it("should render button as a link", () => {

@@ -1,4 +1,4 @@
-import { screen, waitFor } from "@testing-library/react";
+import { screen } from "@testing-library/react";
 import { renderWithTheme } from "utils/tests/helpers";
 
 import Heading from "components/Heading";
@@ -31,13 +31,13 @@ describe("<Heading />", () => {
   it("should render a heading with a libe to the bottom side", () => {
     renderWithTheme(<Heading lineBottom>Won Games</Heading>);
 
-    waitFor(() => {
-      expect(
-        screen.getByRole("heading", { name: /Won Games/i })
-      ).toHaveStyleRule("border-bottom", "0.5rem solid #F231A5", {
+    expect(screen.getByRole("heading", { name: /Won Games/i })).toHaveStyleRule(
+      "border-bottom",
+      "0.5rem solid #F231A5",
+      {
         modifier: "::after"
-      });
-    });
+      }
+    );
   });
 
   it("should render a heading with a small size", () => {
@@ -47,13 +47,13 @@ describe("<Heading />", () => {
       "font-size": "1.6rem"
     });
 
-    waitFor(() => {
-      expect(
-        screen.getByRole("heading", { name: /Won Games/i })
-      ).toHaveStyleRule("width", "3rem", {
+    expect(screen.getByRole("heading", { name: /Won Games/i })).toHaveStyleRule(
+      "width",
+      "3rem",
+      {
         modifier: "::after"
-      });
-    });
+      }
+    );
   });
 
   it("should render a heading with a huge size", () => {
@@ -74,10 +74,8 @@ describe("<Heading />", () => {
     const heading = screen.getByRole("heading", { name: /Won Games/i });
     expect(heading).toHaveStyle({ "border-left": "0.7rem solid #3CD3C1" });
 
-    waitFor(() => {
-      expect(heading).toHaveStyleRule("border-bottom", "0.5rem solid #3CD3C1", {
-        modifier: "::after"
-      });
+    expect(heading).toHaveStyleRule("border-bottom", "0.5rem solid #3CD3C1", {
+      modifier: "::after"
     });
   });
 });
