@@ -32,7 +32,7 @@ const verticalSettings: Settings = {
 };
 
 const meta: Meta<typeof Slider> = {
-  title: "Component/Slider",
+  title: "Slider/Slider",
   component: Slider,
   tags: ["autodocs"],
   argTypes: {
