@@ -5,7 +5,7 @@ import Highlight from "components/Highlight";
 import highlight from "mocks/highlight";
 
 const meta: Meta<typeof Highlight> = {
-  title: "Component/Highlight",
+  title: "Components/Highlight",
   component: Highlight,
   tags: ["autodocs"],
   argTypes: {

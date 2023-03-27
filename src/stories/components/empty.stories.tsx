@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from "@storybook/react";
 import Empty from "components/Empty";
 
 const meta: Meta<typeof Empty> = {
-  title: "Component/Empty",
+  title: "Components/Empty",
   component: Empty,
   tags: ["autodocs"],
   argTypes: {},

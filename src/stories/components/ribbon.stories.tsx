@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from "@storybook/react";
 import Ribbon from "components/Ribbon";
 
 const meta: Meta<typeof Ribbon> = {
-  title: "Component/Ribbon",
+  title: "Components/Ribbon",
   component: Ribbon,
   tags: ["autodocs"],
   argTypes: {
