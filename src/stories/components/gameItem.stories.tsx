@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from "@storybook/react";
 import GameItem from "components/GameItem";
 
 const meta: Meta<typeof GameItem> = {
-  title: "Components/GameItem",
+  title: "Component/GameItem",
   component: GameItem,
   tags: ["autodocs"],
   argTypes: {},

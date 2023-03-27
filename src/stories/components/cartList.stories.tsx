@@ -4,7 +4,7 @@ import CartList from "components/CartList";
 import items from "mocks/cartList";
 
 const meta: Meta<typeof CartList> = {
-  title: "Components/CartList",
+  title: "Component/CartList",
   component: CartList,
   tags: ["autodocs"],
   argTypes: {},
