@@ -9,6 +9,27 @@ import theme from "../src/styles/theme";
 const preview: Preview = {
   parameters: {
     actions: { argTypesRegex: "^on[A-Z].*" },
+    options: {
+      storySort: {
+        order: [
+          "Introduction",
+          "Pages",
+          ["Home", "Game"],
+          "Brand",
+          "Components",
+          "Dropdown",
+          "Form",
+          "Icons",
+          "Layout",
+          "Navigation",
+          "Slider",
+          "Typography"
+        ]
+      },
+      storyCategory: {
+        open: false
+      }
+    },
     controls: {
       matchers: {
         color: /(background|color)$/i,
