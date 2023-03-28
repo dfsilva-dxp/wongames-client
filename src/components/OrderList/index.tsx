@@ -6,7 +6,7 @@ import * as S from "./styles";
 
 import { OrdersListProps } from "./orderList";
 
-const OrdersList = ({ items = [] }: OrdersListProps) => {
+const OrderList = ({ items = [] }: OrdersListProps) => {
   return (
     <S.Wrapper>
       <Heading lineBottom lineColor="primary" color="black" size="small">
@@ -26,4 +26,4 @@ const OrdersList = ({ items = [] }: OrdersListProps) => {
   );
 };
 
-export default OrdersList;
+export default OrderList;

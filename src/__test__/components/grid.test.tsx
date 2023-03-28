@@ -1,6 +1,6 @@
 import { renderWithTheme } from "utils/tests/helpers";
 
-import { Grid } from "components/Grid";
+import Grid from "components/Grid";
 
 describe("<Grid />", () => {
   it("should render the heading", () => {

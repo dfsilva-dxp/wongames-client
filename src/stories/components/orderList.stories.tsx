@@ -1,12 +1,12 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import OrdersList from "components/OrdersList";
+import OrderList from "components/OrderList";
 
 import orderList from "mocks/orderList";
 
-const meta: Meta<typeof OrdersList> = {
-  title: "Components/OrdersList",
-  component: OrdersList,
+const meta: Meta<typeof OrderList> = {
+  title: "Components/OrderList",
+  component: OrderList,
   tags: ["autodocs"],
   argTypes: {},
   args: {
@@ -27,6 +27,6 @@ const meta: Meta<typeof OrdersList> = {
 };
 
 export default meta;
-type Story = StoryObj<typeof OrdersList>;
+type Story = StoryObj<typeof OrderList>;
 
 export const Basic: Story = {};
