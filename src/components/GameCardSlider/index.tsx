@@ -1,6 +1,7 @@
 import { ArrowBackIos as ArrowLeft } from "@styled-icons/material-outlined/ArrowBackIos";
 import { ArrowForwardIos as ArrowRight } from "@styled-icons/material-outlined/ArrowForwardIos";
 
+import Button from "components/Button";
 import GameCard from "components/GameCard";
 import Slider from "components/Slider";
 
@@ -12,8 +13,20 @@ import { GameCardSliderProps } from "./gameCardSlider";
 
 const sliderSettings = {
   ...settings,
-  nextArrow: <ArrowRight aria-label="next games" />,
-  prevArrow: <ArrowLeft aria-label="previous games" />
+  nextArrow: (
+    <Button
+      icon={<ArrowRight aria-label="next games" />}
+      minimal
+      size="large"
+    />
+  ),
+  prevArrow: (
+    <Button
+      icon={<ArrowLeft aria-label="previous games" />}
+      minimal
+      size="large"
+    />
+  )
 };
 
 const GameCardSlider = ({ items, color = "white" }: GameCardSliderProps) => {

@@ -1,6 +1,11 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.section`
+  img {
+    width: 100%;
+    height: 100%;
+    block-size: cover;
+  }
   .slick-slider {
     position: relative;
 
