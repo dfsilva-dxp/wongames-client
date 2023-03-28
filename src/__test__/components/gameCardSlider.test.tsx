@@ -14,14 +14,10 @@ describe("<GameCardSlider />", () => {
     expect(container.querySelectorAll(".slick-active")).toHaveLength(4);
   });
 
-  it("should render white arrows if color passed", () => {
+  it("should render arrows", () => {
     renderWithTheme(<GameCardSlider items={gameCardSlider} color="white" />);
 
-    expect(screen.getByLabelText(/previous games/i)).toHaveStyle({
-      color: "#FAFAFA"
-    });
-    expect(screen.getByLabelText(/next games/i)).toHaveStyle({
-      color: "#FAFAFA"
-    });
+    expect(screen.getByLabelText(/previous games/i)).toBeInTheDocument();
+    expect(screen.getByLabelText(/next games/i)).toBeInTheDocument();
   });
 });

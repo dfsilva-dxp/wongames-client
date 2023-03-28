@@ -1,0 +1,445 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Gallery /> should render thumbnails as buttons 1`] = `
+.c4 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c6 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background: linear-gradient(180deg,#ff5f5f 0%,#f062c0 50%);
+  color: #FAFAFA;
+  border: 0;
+  border-radius: 0.4rem;
+  padding: 0.8rem;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  height: 5rem;
+  padding: 0.8rem 4.8rem;
+  font-size: 1.6rem;
+  background: none;
+  color: #F231A5;
+}
+
+.c6:hover {
+  color: #e20e8d;
+}
+
+.c6 svg {
+  width: 1.5rem;
+}
+
+.c6 svg + span {
+  margin-left: 0.8rem;
+}
+
+.c6:hover {
+  background: none;
+}
+
+.c1 img {
+  width: 100%;
+  height: 100%;
+  -webkit-block-size: cover;
+  -ms-flex-block-size: cover;
+  block-size: cover;
+}
+
+.c1 .slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.c1 .slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.c1 .slick-list:focus {
+  outline: none;
+}
+
+.c1 .slick-list.dragging {
+  cursor: pointer;
+  cursor: hand;
+}
+
+.c1 .slick-slider .slick-track,
+.c1 .slick-slider .slick-list {
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+  -o-transform: translate3d(0,0,0);
+  -webkit-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.c1 .slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+}
+
+.c1 .slick-track:before,
+.c1 .slick-track:after {
+  display: table;
+  content: "";
+}
+
+.c1 .slick-track:after {
+  clear: both;
+}
+
+.c1 .slick-loading .slick-track {
+  visibility: hidden;
+}
+
+.c1 .slick-slide {
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+
+.c1 [dir="rtl"] .slick-slide {
+  float: right;
+}
+
+.c1 .slick-slide img {
+  display: block;
+}
+
+.c1 .slick-slide.slick-loading img {
+  display: none;
+}
+
+.c1 .slick-slide.dragging img {
+  pointer-events: none;
+}
+
+.c1 .slick-initialized .slick-slide {
+  display: block;
+}
+
+.c1 .slick-loading .slick-slide {
+  visibility: hidden;
+}
+
+.c1 .slick-vertical .slick-slide {
+  display: block;
+  height: auto;
+  border: 1px solid transparent;
+}
+
+.c1 .slick-arrow.slick-hidden {
+  display: none;
+}
+
+.c0 .slick-prev,
+.c0 .slick-next {
+  display: block;
+  color: #FAFAFA;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0;
+  -webkit-transform: translate(0,-50%);
+  -ms-transform: translate(0,-50%);
+  transform: translate(0,-50%);
+}
+
+.c0 .slick-prev {
+  left: -5.6rem;
+}
+
+.c0 .slick-next {
+  right: -5.6rem;
+}
+
+.c0 .slick-prev.slick-disabled,
+.c0 .slick-next.slick-disabled {
+  visibility: hidden;
+}
+
+.c0 .slick-slide > div {
+  margin: 0 1.6rem;
+  cursor: pointer;
+}
+
+.c0 .slick-list {
+  margin: 0 -1.6rem;
+}
+
+.c2 {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.7);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  z-index: 40;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.c3 {
+  color: #FAFAFA;
+  position: absolute;
+  left: 0;
+  top: 0;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  text-align: right;
+}
+
+.c5 {
+  max-width: min(120rem,100%);
+  max-height: 80rem;
+}
+
+.c5 img {
+  width: 100%;
+  height: 100%;
+  -webkit-block-size: cover;
+  -ms-flex-block-size: cover;
+  block-size: cover;
+}
+
+@media (max-width:1440px) {
+  .c0 {
+    overflow-x: hidden;
+  }
+}
+
+<div
+  class="c0"
+>
+  <section
+    class="c1"
+  >
+    <div
+      class="slick-slider slick-initialized"
+    >
+      <div
+        class="slick-list"
+      >
+        <div
+          class="slick-track"
+          style="opacity: 1; transform: translate3d(0px, 0px, 0px);"
+        >
+          <div
+            aria-hidden="false"
+            class="slick-slide slick-active slick-current"
+            data-index="0"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <img
+                alt="Thumb - Gallery Image 1"
+                data-nimg="1"
+                decoding="async"
+                height="100"
+                loading="lazy"
+                role="button"
+                src="/_next/image?url=http%3A%2F%2Flocalhost%3A1337%2Fuploads%2Fhellblade_senuas_sacrifice_pack_c6c9b74b9c.jpg&w=256&q=75"
+                srcset="/_next/image?url=http%3A%2F%2Flocalhost%3A1337%2Fuploads%2Fhellblade_senuas_sacrifice_pack_c6c9b74b9c.jpg&w=128&q=75 1x, /_next/image?url=http%3A%2F%2Flocalhost%3A1337%2Fuploads%2Fhellblade_senuas_sacrifice_pack_c6c9b74b9c.jpg&w=256&q=75 2x"
+                style="color: transparent; width: 100%; display: inline-block;"
+                tabindex="-1"
+                width="100"
+              />
+            </div>
+          </div>
+          <div
+            aria-hidden="false"
+            class="slick-slide slick-active"
+            data-index="1"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <img
+                alt="Thumb - Gallery Image 2"
+                data-nimg="1"
+                decoding="async"
+                height="100"
+                loading="lazy"
+                role="button"
+                src="/_next/image?url=http%3A%2F%2Flocalhost%3A1337%2Fuploads%2Fhellblade_senuas_sacrifice_pack_41c824d476.jpg&w=256&q=75"
+                srcset="/_next/image?url=http%3A%2F%2Flocalhost%3A1337%2Fuploads%2Fhellblade_senuas_sacrifice_pack_41c824d476.jpg&w=128&q=75 1x, /_next/image?url=http%3A%2F%2Flocalhost%3A1337%2Fuploads%2Fhellblade_senuas_sacrifice_pack_41c824d476.jpg&w=256&q=75 2x"
+                style="color: transparent; width: 100%; display: inline-block;"
+                tabindex="-1"
+                width="100"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div
+    aria-hidden="true"
+    aria-label="modal"
+    class="c2"
+  >
+    <div
+      aria-label="Close modal"
+      class="c3"
+      role="button"
+    >
+      <svg
+        aria-hidden="true"
+        class="c4"
+        fill="currentColor"
+        focusable="false"
+        height="40"
+        viewBox="0 0 24 24"
+        width="40"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"
+        />
+      </svg>
+    </div>
+    <div
+      class="c5"
+    >
+      <section
+        class="c1"
+      >
+        <div
+          class="slick-slider slick-initialized"
+          dir="ltr"
+        >
+          <button
+            class="c6 slick-arrow slick-prev slick-disabled"
+            data-role="none"
+            style="display: block;"
+          >
+            <svg
+              aria-hidden="true"
+              aria-label="previous games"
+              class="c4"
+              fill="currentColor"
+              focusable="false"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M17.51 3.87 15.73 2.1 5.84 12l9.9 9.9 1.77-1.77L9.38 12l8.13-8.13z"
+              />
+            </svg>
+          </button>
+          <div
+            class="slick-list"
+          >
+            <div
+              class="slick-track"
+              style="opacity: 1; transform: translate3d(0px, 0px, 0px);"
+            >
+              <div
+                aria-hidden="false"
+                class="slick-slide slick-active slick-current"
+                data-index="0"
+                style="outline: none; width: 0px;"
+                tabindex="-1"
+              >
+                <div>
+                  <img
+                    alt="Gallery Image 1"
+                    data-nimg="1"
+                    decoding="async"
+                    height="100"
+                    loading="lazy"
+                    src="/_next/image?url=http%3A%2F%2Flocalhost%3A1337%2Fuploads%2Fhellblade_senuas_sacrifice_pack_c6c9b74b9c.jpg&w=256&q=75"
+                    srcset="/_next/image?url=http%3A%2F%2Flocalhost%3A1337%2Fuploads%2Fhellblade_senuas_sacrifice_pack_c6c9b74b9c.jpg&w=128&q=75 1x, /_next/image?url=http%3A%2F%2Flocalhost%3A1337%2Fuploads%2Fhellblade_senuas_sacrifice_pack_c6c9b74b9c.jpg&w=256&q=75 2x"
+                    style="color: transparent; width: 100%; display: inline-block;"
+                    tabindex="-1"
+                    width="100"
+                  />
+                </div>
+              </div>
+              <div
+                aria-hidden="true"
+                class="slick-slide"
+                data-index="1"
+                style="outline: none; width: 0px;"
+                tabindex="-1"
+              />
+            </div>
+          </div>
+          <button
+            class="c6 slick-arrow slick-next"
+            data-role="none"
+            style="display: block;"
+          >
+            <svg
+              aria-hidden="true"
+              aria-label="next games"
+              class="c4"
+              fill="currentColor"
+              focusable="false"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.23 20.23 8 22l10-10L8 2 6.23 3.77 14.46 12z"
+              />
+            </svg>
+          </button>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+`;
